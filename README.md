@@ -27,12 +27,14 @@ The first part of the project demonstrates converting a single color image to gr
 
 ## 2. Folder Structure
 C:\Users\srima\Desktop\HPC_test\CudaGrayscale
+CudaGrayscale/
 │
-├── grey_scale.cu 
-├── stb_image.h 
-├── stb_image_write.h 
-├── input.jpg 
-└── gray.exe 
+├── grey_scale.cu # CUDA source code
+├── stb_image.h # Header-only library for loading images
+├── stb_image_write.h # Header-only library for saving images
+├── input.jpg # Input color image
+└── gray.exe # Compiled executable
+
 
 
 After running the program, a new file will be generated that is grey.png:
